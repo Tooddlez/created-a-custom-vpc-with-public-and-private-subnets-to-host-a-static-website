@@ -21,6 +21,7 @@ The primary goal of this project is to build a foundational, real-world cloud ar
 -   **NAT Gateway:** Enables instances in the private subnet to initiate outbound traffic while remaining firewalled.
   ![NAT Gateaway](https://github.com/Tooddlez/created-a-custom-vpc-with-public-and-private-subnets-to-host-a-static-website/blob/main/NAT%20Gateaway.PNG)
 -   **Route Tables:** Control the flow of traffic within the VPC, directing public traffic to the IGW and private traffic to the NAT Gateway.
+-  ![Route Tables](https://github.com/Tooddlez/created-a-custom-vpc-with-public-and-private-subnets-to-host-a-static-website/blob/main/Route%20Table.PNG)
 -.  **EC2 Instances:**
     -   **Public Instance:** A `t2.micro` instance in the public subnet, accessible via SSH and HTTP.
     -   **Private Instance:** A `t2.micro` instance in the private subnet, accessible only from the public instance.
