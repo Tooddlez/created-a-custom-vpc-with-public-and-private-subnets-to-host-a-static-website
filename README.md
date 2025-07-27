@@ -16,7 +16,7 @@ The primary goal of this project is to build a foundational, real-world cloud ar
 -   **Custom VPC:** A logically isolated network (`10.0.0.0/16`) to house all project resources.
 -   **Public Subnet:** A subnet (`10.0.1.0/24`) with a route to the Internet Gateway, allowing resources to be reached from the public internet.
 -   **Private Subnet:** A subnet (`10.0.2.0/24`) with a route to a NAT Gateway, allowing outbound internet access for updates without allowing inbound connections.
-![VPC with a public subnet that can communicate with the internet and a private subnet that is firewalled but can get updates](https://github.com/Tooddlez/created-a-custom-vpc-with-public-and-private-subnets-to-host-a-static-website/edit/main/README.md)
+![VPC with a public subnet that can communicate with the internet and a private subnet that is firewalled but can get updates](https://github.com/Tooddlez/created-a-custom-vpc-with-public-and-private-subnets-to-host-a-static-website/blob/main/VPC%20with%20a%20public%20subnet%20that%20can%20communicate%20with%20the%20internet%20and%20a%20private%20subnet%20that%20is%20firewalled%20but%20can%20get%20updates..PNG)
 -   **Internet Gateway (IGW):** The "front door" connecting the VPC to the internet.
 -   **NAT Gateway:** Enables instances in the private subnet to initiate outbound traffic while remaining firewalled.
 -   **Route Tables:** Control the flow of traffic within the VPC, directing public traffic to the IGW and private traffic to the NAT Gateway.
