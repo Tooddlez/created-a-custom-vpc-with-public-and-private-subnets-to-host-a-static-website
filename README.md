@@ -53,6 +53,7 @@ The project was implemented in the following sequence:
     -   `public-sg`: Allowing inbound SSH (from My IP) and HTTP (from Anywhere).
     -   `private-sg`: Allowing inbound SSH only from the `public-sg`.
 2.  The public EC2 instance was launched in the public subnet with the `public-sg` and a public IP address.
+   ![Private Security Group](https://github.com/Tooddlez/created-a-custom-vpc-with-public-and-private-subnets-to-host-a-static-website/blob/main/Public%20Security%20Group.PNG)
 3.  The private EC2 instance was launched in the private subnet with the `private-sg` and no public IP address.
 
 ### Phase 3: Serverless Website
