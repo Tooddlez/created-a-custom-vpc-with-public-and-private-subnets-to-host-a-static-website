@@ -59,6 +59,7 @@ The project was implemented in the following sequence:
 
 ### Phase 3: Serverless Website
 1.  A globally unique S3 bucket was created.
+  ![Successfully Created an S3 Bucket](https://github.com/Tooddlez/created-a-custom-vpc-with-public-and-private-subnets-to-host-a-static-website/blob/main/Successfully%20created%20an%20S3%20Bucket.PNG)
 2.  Public access was unblocked, and a bucket policy was applied to allow `s3:GetObject` for public read access.
 3.  Static website hosting was enabled on the bucket, with `index.html` as the index document.
 4.  A sample `index.html` file was uploaded to the bucket.
