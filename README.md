@@ -64,6 +64,7 @@ The project was implemented in the following sequence:
   ![Successfully Edited Bucket Policy](https://github.com/Tooddlez/created-a-custom-vpc-with-public-and-private-subnets-to-host-a-static-website/blob/main/Successfully%20Edited%20Bucket%20Policy.PNG)
 3.  Static website hosting was enabled on the bucket, with `index.html` as the index document.
 4.  A sample `index.html` file was uploaded to the bucket.
+  ![Created and uploaded my index.hmtl file to my S3 Bucket](https://github.com/Tooddlez/created-a-custom-vpc-with-public-and-private-subnets-to-host-a-static-website/blob/main/Created%20and%20uploaded%20my%20index.hmtl%20file%20to%20my%20S3%20Bucket.PNG)
 
 ## 📸 Final Results
 
