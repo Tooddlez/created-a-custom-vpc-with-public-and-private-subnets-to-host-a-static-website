@@ -72,8 +72,7 @@ The project was implemented in the following sequence:
 
 The static website is successfully hosted on S3 and is publicly accessible via its endpoint URL.
 
-![S3 Static Website Screenshot]([PASTE YOUR SCREENSHOT LINK HERE])
-*Example Link: `https://raw.githubusercontent.com/your-username/your-repo/main/s3-website.png`*
+![S3 Static Website](https://github.com/Tooddlez/created-a-custom-vpc-with-public-and-private-subnets-to-host-a-static-website/blob/main/Bucket%20Website%20End%20Point.PNG)
 
 ### Network Connectivity
 
